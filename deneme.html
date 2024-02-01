@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="deneme.css">
+    <title>Dropdown Menüler</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item dropdown" onmouseover="showDropdown(this)" onmouseout="hideDropdown(this)">
+                <a href="#">Menü 1</a>
+                <div class="dropdown-content">
+                    <a href="#">Seçenek 1.1</a>
+                    <a href="#">Seçenek 1.2</a>
+                    <a href="#">Seçenek 1.3</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown" onmouseover="showDropdown(this)" onmouseout="hideDropdown(this)">
+                <a href="#">Menü 2</a>
+                <div class="dropdown-content">
+                    <a href="#">Seçenek 2.1</a>
+                    <a href="#">Seçenek 2.2</a>
+                    <a href="#">Seçenek 2.3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="deneme.js"></script>
+</body>
+</html>
+
