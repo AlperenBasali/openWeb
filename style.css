@@ -13,6 +13,7 @@ body{
     font-family: "Roboto Slab", serif;
     font-family: Copernicus,serif;
     font-style: italic;
+    color: black;
 }
 /* NAV */
 nav{
@@ -130,11 +131,53 @@ nav{
     padding-bottom: 2rem;
     
 }
-/* mobil görüntüden devam */
 
+.storyA:hover p{
+    color: blue !important;
+}
+.storyA:hover i{
+    
+    left: 10px !important;
+    color: blue !important;
+    transition: left 0.3s ease;
+    }
+    .storyA i{
+    
+    left: 0;
+    position: relative;
+    transition: left 0.3s ease;
+    color: black !important;
+    font-size: 500%;
+    font-weight: 100 !important;
+    opacity: .7;
+    margin-left: 30px   
+    }
+.tuneIn{
+    transition: .5s ease;
+}
+.tuneIn:hover{
+background-color: #555 !important;
+transition: .5s ease;
+}
 
-
-
+.card{
+    background-color: #F1E9E7;
+    border-radius: 0;
+    border: 1px solid black;
+    transition: .3s ease;
+}
+.card:hover{
+    border: 1px solid blue;
+    transition: .3s ease;
+}
+.card:hover .card-body{
+    color: blue !important;
+    transition: .3s ease;
+}
+.card:hover .card-title{
+    color: blue !important;
+    transition: .3s ease;
+}
 
 @media screen and (max-width:1200px){
     /* NAV */
@@ -209,6 +252,16 @@ nav{
         width: 100% !important;
     }
     /*NAV */
+    .storyA{
+        margin-top: 100px;
+    }
+    .power{
+        font-size: 400% !important;
+    }
+    .powerLast{
+        font-size: 50% !important;
+        
+    }
 }
 
 @media screen and (max-width:767px){
@@ -225,6 +278,15 @@ nav{
     }
     .fig{
         border-bottom: none !important;
+    }
+    .carousel-item p{
+        font-size: 150% !important;
+    }
+    .carouselPhotoDivInfo{
+        font-size: 100% !important;
+    }
+    .storyA{
+        margin-top: 150px;
     }
     
 }
