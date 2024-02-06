@@ -38,4 +38,11 @@ hamburger.addEventListener("click",() =>{
 })
 
 
+// const form1 = document.getElementById('form1')
 
+// form1.addEventListener('submit',function(e){
+//     e.preventDefauld()
+//     console.log('test')
+//     const input = this.querySelector('input')
+//     console.log(input)
+// })
