@@ -180,14 +180,16 @@ transition: .5s ease;
 }
 
 /* FOOTER */
-.footerPublisher a{
+.footerPublisher button{
+    background-color: #F1E9E7;
+    border: none;
     text-decoration: none;
     color: black;
 }
-.footerPublisher a p{
+.footerPublisher button p{
     transition: .3s;
 }
-.footerPublisher a:hover p{
+.footerPublisher button:hover p{
     color: blue;
     transition: .3s;
 }
@@ -253,6 +255,43 @@ transition: .5s ease;
     margin-right: 20px;
     color: grey;
 }
+
+.footerPlease input{
+    display: inline-block ;
+}
+.footerInterested input{
+    display: inline-block ;   
+}
+select{
+    border: none;
+    background-color: #F1E9E7;
+    font-size: 150%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+select:focus{
+    outline: none;
+}
+option{
+    display: block;
+    
+}
+.footerAdv{
+    display: none;
+}
+.footerAdv span a{
+    color: black;
+}
+.footerPub span a{
+    color: black;
+}
+.publisher{
+    color: blue;
+}
+
 
 @media screen and (max-width:1200px){
     /* NAV */

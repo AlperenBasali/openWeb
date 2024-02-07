@@ -456,14 +456,14 @@
     <br><br><br><br><br><br><br><br><br><br>
 <!-- FOOTER -->
 
-    <footer>
+    <footerPub class="footerPub">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-7 ">
             <h1 id="lets" style=" font-style: normal; font-size: 600%;line-height: 1;">Let’s have a conversation.</h1>
             <div style="font-size: 300%;" class="footerPublisher d-flex ">
-              <a href=""><p style="color: blue;"class="me-5">Publisher</p></a> 
-              <a href=""><p>Advertiser</p></a> 
+              <button onclick="footerAdvFunction()"><p style="color: blue;" class="me-5">Publisher</p></button> 
+              <button onclick="footerPubFunction()" ><p>Advertiser</p></button> 
             </div>
             <br>
             <p style="line-height: 1.1;font-size: 130%;font-style: normal;">Right now OpenWeb has a limited number of partners we can work with in order to provide the highest quality service to each and every one. Let us know you’re interested and stay informed about how OpenWeb is empowering publishers and advertisers to change online conversations for good.</p>
@@ -478,6 +478,7 @@
               <div class="footerInterested">
                 <br>
                 <p style="font-size: 150%;">What Are You Interested In?</p>
+                
                 <input class="checkbox" type="checkbox"> <span>Build Your Community</span>
                   <br>
                 <input class="checkbox" type="checkbox"> <span>Monetize Your Email</span>
@@ -488,7 +489,7 @@
               <div class="footerPlease">
                 <input class="checkbox" type="checkbox"> <span>Please keep me informed about OpenWeb services, offerings and upcoming events.</span>
                 <br>
-                <input class="checkbox" type="checkbox"> <span>By submitting this form I agree to OpenWeb Privacy Policy and Terms of use.</span>
+                <input class="checkbox" type="checkbox"> <span>By submitting this form I agree to OpenWeb <a href="">Privacy Policy</a> and <a href="">Terms of use</a>.</span>
               </div>
                
               <button class="footerSubmit" type="submit">Get In Touch </button>
@@ -496,7 +497,57 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footerPub>
+
+    <footerAdv class="footerAdv">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-7 ">
+            <h1 id="lets" style=" font-style: normal; font-size: 600%;line-height: 1;">Let’s have a conversation.</h1>
+            <div style="font-size: 300%;" class="footerPublisher d-flex ">
+              <button onclick="footerAdvFunction()"><p  class="me-5 ">Publisher</p></button> 
+              <button onclick="footerPubFunction()" ><p style="color: blue;" >Advertiser</p></button> 
+            </div>
+            
+          </div>
+          <div style="font-style: normal;" class="col-12 col-lg-5 d-flex justify-content-start justify-content-lg-end ">
+            <form id="form1" class="form" action="">
+              <input type="text"  placeholder="First Name" required> <!--  DÜZENLENECEK -->
+              <input type="text"  placeholder="Last Name" required> <!--  DÜZENLENECEK -->
+              <input type="text"  placeholder="Business Email" required> <!--  DÜZENLENECEK -->
+              <div class="div">
+              <p style="margin-bottom: auto; font-size: 150%;padding-top: 10px;">Company Name</p>
+              <input type="text"  placeholder="Company Name" required> <!--  DÜZENLENECEK -->
+            </div>
+            <input type="text" class="mt-3"  placeholder="Job Title" required>
+            <br>
+            <select name="" id="">
+              <option disabled selected value="">Company Type</option>
+              <option value="">Publisher</option>
+              <option value="">Agency</option>
+              <option value="">Advertiser</option>
+            </select>
+              <div class="footerInterested">
+                <br>
+                <p style="font-size: 150%;">What Are You Interested In?</p>
+                <input class="checkbox" type="checkbox"> <span>Reach Premium Communities</span>
+                  <br>
+                <input class="checkbox" type="checkbox"> <span>Reach Cookie-Free Audiences</span>
+                
+                <hr>
+              </div>
+              <div class="footerPlease">
+                <input class="checkbox" type="checkbox"> <span>Please keep me informed about OpenWeb services, offerings and upcoming events.</span>
+                <br>
+                <input class="checkbox" type="checkbox"> <span>By submitting this form I agree to OpenWeb <a href="">Privacy Policy</a> and <a href="">Terms of use</a>.</span>
+              </div>
+               
+              <button class="footerSubmit" type="submit">Get In Touch </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footerAdv>
     
     <footer2>
       <div style="margin-top: 100px;" class="container">
@@ -598,8 +649,6 @@ var isMouseDown = false;
             }
         });
     });
-
-
 
     </script>
 </body>

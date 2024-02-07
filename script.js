@@ -37,12 +37,24 @@ hamburger.addEventListener("click",() =>{
     
 })
 
+const footerPub = document.querySelector(".footerPub")
+const footerAdv = document.querySelector(".footerAdv")
 
-// const form1 = document.getElementById('form1')
+function footerPubFunction(){
+    footerPub.style.display = "none";
+    footerAdv.style.display = "block";
+   
+    
+}
+function footerAdvFunction(){
+    footerAdv.style.display = "none";
+    footerPub.style.display = "block";
+   
+    
+}
 
-// form1.addEventListener('submit',function(e){
-//     e.preventDefauld()
-//     console.log('test')
-//     const input = this.querySelector('input')
-//     console.log(input)
-// })
+// footer da advertiser kısmı 8 şubat
+// Düzeltmeler fe 8-9 şubat
+
+// login register altta 10şubat
+// blog ekle 10 şubat
