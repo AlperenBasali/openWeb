@@ -53,8 +53,8 @@ function footerAdvFunction(){
     
 }
 
-// footer da advertiser kısmı 8 şubat
-// Düzeltmeler fe 8-9 şubat
+
+// Düzeltmeler fe 8-9 şubat nav bitti
 
 // login register altta 10şubat
 // blog ekle 10 şubat

@@ -87,9 +87,12 @@ nav{
 }
 
 .hamburger{
-    
+    transition: .3s;
     cursor: pointer;
+    
 }
+
+
 .bar{
     display: block;
     width: 25px;
@@ -99,6 +102,9 @@ nav{
     transition: all 0.3s ease-in-out;
     background-color: black;
 }
+
+
+
 #tinyScreen{
     display: none;
 }
