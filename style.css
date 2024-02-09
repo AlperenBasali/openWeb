@@ -113,11 +113,14 @@ nav{
 .figure{
     display: flex;
     justify-content: center;
+    
 }
 .figure img{
-    border-top: 1px solid black;
     width: 80%;
+    border-top: 1px solid black;
     padding: 2rem 3rem;
+    image-rendering: -webkit-optimize-contrast;
+    
     
 }
 .carousel{
